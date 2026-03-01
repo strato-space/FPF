@@ -109,7 +109,7 @@ Pattern and headers templates are explained in pattern E.8.
 | B.1.2 | **System-specific Aggregation Γ_sys** | Stable | *Keywords:* system aggregation, physical systems, mass, energy, boundary rules, Sys-CAL. *Queries:* "How to aggregate physical systems?", "Conservation laws in FPF aggregation?" | **Builds on:** B.1, A.1, C.1. |
 | B.1.3 | **Γ_epist — Knowledge-Specific Aggregation**| Stable | *Keywords:* knowledge aggregation, epistemic, provenance, trust, KD-CAL. *Queries:* "How to combine knowledge artifacts?", "How does trust propagate in FPF?" | **Builds on:** B.1, A.1, C.2. |
 | B.1.4 | **Contextual & Temporal Aggregation (Γ_ctx & Γ_time)** | Stable | *Keywords:* temporal aggregation, time-series, order-sensitive, composition. *Queries:* "How does FPF handle time-series data?", "How to model processes where order matters?" | **Builds on:** B.1. |
-| B.1.5 | **Γ_method — Order-Sensitive Method Composition & Instantiation**| Stable | *Keywords:* method composition, workflow, sequential, concurrent, plan vs run. *Queries:* "How to combine methods or workflows?", "How does FPF model complex procedures?" | **Builds on:** B.1, B.1.4, A.3.1. |
+| B.1.5 | **Γ_method — Order-Sensitive Method Composition & Work Enactment**| Stable | *Keywords:* method composition, workflow, sequential, concurrent, plan vs run. *Queries:* "How to combine methods or workflows?", "How does FPF model complex procedures?" | **Builds on:** B.1, B.1.4, A.3.1. |
 | B.1.6 | **Γ_work — Work as Spent Resource**| Stable | *Keywords:* work, resource aggregation, cost, energy consumption, Resrc-CAL. *Queries:* "How to calculate the total cost of a process?", "How are resources aggregated in FPF?" | **Builds on:** B.1, A.15.1, C.5. |
 | **B.2** | **Meta-Holon Transition (MHT): Recognizing Emergence and Re-identifying Wholes**| Stable | *Keywords:* emergence, MHT, meta-system, new whole, synergy, system of systems. *Queries:* "How does FPF model emergence?", "What is a Meta-Holon Transition?", "When does a collection become more than the sum of its parts?" | **Builds on:** B.1, A.1. **Prerequisite for:** All B.2.x. |
 | B.2.1 | **BOSC Triggers** | Draft | *Keywords:* BOSC, triggers for emergence, boundary, objective, supervisor, complexity. *Queries:* "What triggers an MHT?", "What are the BOSC criteria for emergence?" | **Builds on:** B.2. |
@@ -135,7 +135,7 @@ Pattern and headers templates are explained in pattern E.8.
 | **B.6** | **Characterisation Families (CHR-use)** | Draft | *Keywords:* characterization, templates, CHR patterns, measurement. *Queries:* "How to use CHR patterns?" | **Builds on:** Part C (CHR). |
 | **B.7** | **Common Logic Suite (LOG-use)** | Draft | *Keywords:* logic, inference, trust propagation, LOG-CAL. *Queries:* "How to apply formal logic in FPF?" | **Builds on:** Part C (LOG-CAL). |
 
-**Part C — Kernel Extention Specifications**
+**Part C — Kernel Extension Specifications**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
@@ -8862,7 +8862,7 @@ FPF already committed to a single SlotKind/ValueKind/RefKind discipline (A.6.5) 
 
 ### A.6.2:End
 
-## A.6.3 - `U.EpistemicViewing` — describedEntity‑preserving morphism**
+## A.6.3 - `U.EpistemicViewing` — describedEntity‑preserving morphism
 
 **One‑line summary.** `U.EpistemicViewing` is the **describedEntity‑preserving** species of `U.EffectFreeEpistemicMorphing`: an effect‑free projection between epistemes that may change content and representation, but **never changes what the episteme is about** (the occupant of `DescribedEntitySlot` in C.2.1).
 
@@ -33114,7 +33114,7 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
    Tell‑Show‑Show pedagogy: universal rule → Sys‑CAL example →
    KD‑CAL example.
 
-4. **Part C Extention Patterns**  
+4. **Part C Extension Patterns**  
    Domain‑specific calculi expand on the examples already seen.
 
 5. **Part D Ethics & Conflict Optimisation**  
