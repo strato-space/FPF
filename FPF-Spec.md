@@ -43,7 +43,7 @@ Pattern and headers templates are explained in pattern E.8.
 | A.2.4 | **`U.EvidenceRole`: The Evidential Stance** | Stable | *Keywords:* evidence, claim, support, justification, episteme. *Queries:* "How does an episteme serve as evidence?", "Modeling evidence roles." | **Builds on:** A.2. **Informs:** A.10, B.3. |
 | A.2.5 | **`U.RoleStateGraph`: The Named State Space of a Role**| Stable | *Keywords:* state machine, RSG, role state, enactability, lifecycle. *Queries:* "How to model the state of a role?", "What is a Role State Graph?" | **Builds on:** A.2.1. **Prerequisite for:** A.15. |
 | A.2.6 | **Unified Scope Mechanism (USM): Context Slices & Scopes**| Stable | *Keywords:* scope, applicability, ClaimScope (G), WorkScope, set-valued. *Queries:* "How to define the scope of a claim or capability?", "What is G in F-G-R?" | **Builds on:** A.1.1. **Constrains:** A.2.2, A.2.3, B.3. |
-| A.2.7 | **`U.RoleAlgebra`: In-Context Role Relations (`≤`, `⊥`, `⊗`)** | New | *Keywords:* role algebra, specialization (`≤`), incompatibility (`⊥`), bundles (`⊗`), separation of duties (SoD), requiredRoles substitution. *Queries:* "What does `RoleS ≤ RoleG` mean in FPF?", "How do I encode Separation of Duties with `⊥`?", "How do role bundles (`⊗`) work?" | **Builds on:** A.2. **Prerequisite for:** A.15, A.2.5. |
+| A.2.7 | **`U.RoleAlgebra`: In-Context Role Relations (`≤`, `⊥`, `⊗`)** | Stable | *Keywords:* role algebra, specialization (`≤`), incompatibility (`⊥`), bundles (`⊗`), separation of duties (SoD), requiredRoles substitution. *Queries:* "What does `RoleS ≤ RoleG` mean in FPF?", "How do I encode Separation of Duties with `⊥`?", "How do role bundles (`⊗`) work?" | **Builds on:** A.2. **Prerequisite for:** A.15, A.2.5. |
 | A.2.8 | **`U.Commitment`: Deontic Commitment Object** | Stable | *Keywords:* commitment, deontics, obligation/permission/prohibition, modality normalization, scope+validity window, adjudication hooks, evidenceRefs, BCP‑14 (RFC 2119/8174). *Queries:* "How to represent MUST/SHALL as a lintable object?", "How to keep deontics separate from admissibility gates?", "How to make commitments auditable via evidence hooks?" | **Refines:** A.2. **Builds on:** A.2.1, A.2.3, A.2.6, A.7, A.15.1. **Used by:** A.6.B (Quadrant D), A.6.C. |
 | A.2.9 | **`U.SpeechAct`: Communicative Work Object** | Stable | *Keywords:* speech act, communicative work, approval/authorization/publication/revocation, provenance, act≠utterance≠carrier, judgement context, window/freshness, institutes.*. *Queries:* "How to model approvals/authorizations as Work?", "How to separate act vs utterance vs carrier?", "How to link commitments to instituting acts without commitment-by-publication?" | **Refines:** A.2. **Builds on:** A.2.1, A.2.6, A.7, A.10, A.15.1. **Used by:** A.2.8, A.6.C (utterance/instituting-act hook). |
 | ***Cluster A.II - Transformation Engine*** | | | | |
@@ -306,14 +306,14 @@ Pattern and headers templates are explained in pattern E.8.
 | :--- | :--- | :--- | :--- |
 | J.1 | **Concept‑to‑Pattern Index** | stub | Quick jump from idea (“boundary”) to pattern (§, id). |
 | J.2 | **Pattern‑to‑Example Index** | stub | Table listing every archetypal grounding vignette. |
-| J.3 | **Principle‑Trace Index** | stub | Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
+| J.3 | **Principle‑Trace Index** | Stub | Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
 
 **Part K - Lexical Debt**
 
 | § | ID & Title | Status | Concise content reminder — “what belongs here” |
 | :--- | :--- | :--- | :--- |
-| K.1 | **Mandatory Replacement of Measurement Terms** | stub | Retires "axis/dimension" in favor of "Characteristic" and aligns other measurement terms. |
-| K.2 | **Migration Debt from A.2.6 (USM)** | stub | Specifies the required edits across the FPF to align with the new Unified Scope Mechanism (USM). |
+| K.1 | **Mandatory Replacement of Measurement Terms** | Stub | Retires "axis/dimension" in favor of "Characteristic" and aligns other measurement terms. |
+| K.2 | **Migration Debt from A.2.6 (USM)** | Stub | Specifies the required edits across the FPF to align with the new Unified Scope Mechanism (USM). |
 
 # **Preface** (non-normative)
 
