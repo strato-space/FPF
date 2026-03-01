@@ -32106,7 +32106,7 @@ Provide a **minimal, uniform shape** for engineering “‑ilities” so authors
 * Ensure any scope is **USM** (set over `U.ContextSlice`); no “G‑levels.”  
 * Cite mechanisms/status separately; route crossings’ penalties to **R** only.
 
-### C.23:End
+### C.25:End
 
 
 # **Part D – Multi-scale Ethics & Conflict‑Optimisation**
@@ -35236,7 +35236,7 @@ The **MVE Mandate** ensures that every journey starts with a destination in sigh
 *   **Complements:** `E.12 Didactic Primacy & Cognitive Ergonomics`.
 *   **Provides context for:** The definition of `U.Objective` and `U.Characteristic` by establishing a formal link between them.
 
-### E.10:End
+### E.13:End
 
 ## E.14 - Human‑Centric Working‑Model
 
