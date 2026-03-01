@@ -1,7 +1,9 @@
 # Dependency Graph Visual Plan (Deep Dive)
 
 ## Artifact
-- HTML visual explainer: `/root/.agent/diagrams/fpf-dependency-deep-dive-2026-03-01.html`
+- HTML visual explainer: `review/2026-03-01-deep-review/artifacts/fpf-dependency-deep-dive-2026-03-01.html`
+- Raw graph extraction: `review/2026-03-01-deep-review/artifacts/fpf_dep_analysis.json`
+- Visual payload used for rendering: `review/2026-03-01-deep-review/artifacts/fpf_visual_payload.json`
 
 ## Snapshot
 - Branch: `integration/all-prs-20-27-20260301`

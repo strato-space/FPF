@@ -1,0 +1,6903 @@
+{
+  "file": "FPF-Spec.md",
+  "section_count": 170,
+  "edge_count_raw": 759,
+  "edge_count_depends": 518,
+  "unresolved_count": 63,
+  "sections": [
+    "A.0",
+    "A.1",
+    "A.1",
+    "A.2",
+    "A.2",
+    "A.2",
+    "A.2",
+    "A.2",
+    "A.2",
+    "A.2",
+    "A.2",
+    "A.2",
+    "A.2",
+    "A.3",
+    "A.3",
+    "A.3",
+    "A.3",
+    "A.4",
+    "A.5",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.6",
+    "A.7",
+    "A.8",
+    "A.9",
+    "A.10",
+    "A.11",
+    "A.12",
+    "A.13",
+    "A.14",
+    "A.15",
+    "A.15",
+    "A.15",
+    "A.15",
+    "A.17",
+    "A.18",
+    "A.19",
+    "A.19",
+    "A.19",
+    "A.19",
+    "A.19",
+    "A.19",
+    "A.19",
+    "A.19",
+    "A.19",
+    "A.20",
+    "A.21",
+    "B.1",
+    "B.1",
+    "B.1",
+    "B.1",
+    "B.1",
+    "B.1",
+    "B.1",
+    "B.2",
+    "B.2",
+    "B.2",
+    "B.2",
+    "B.2",
+    "B.3",
+    "B.3",
+    "B.3",
+    "B.3",
+    "B.4",
+    "B.5",
+    "B.5",
+    "B.5",
+    "B.5",
+    "B.5",
+    "C.2",
+    "C.2",
+    "C.2",
+    "C.2",
+    "C.3",
+    "C.3",
+    "C.3",
+    "C.3",
+    "C.3",
+    "C.3",
+    "C.3",
+    "C.13",
+    "C.16",
+    "C.17",
+    "C.18",
+    "C.18",
+    "C.19",
+    "C.19",
+    "C.20",
+    "C.21",
+    "C.22",
+    "C.23",
+    "C.24",
+    "C.25",
+    "D.5",
+    "E.1",
+    "E.2",
+    "E.3",
+    "E.4",
+    "E.5",
+    "E.5",
+    "E.5",
+    "E.5",
+    "E.5",
+    "E.6",
+    "E.7",
+    "E.8",
+    "E.9",
+    "E.10",
+    "E.10",
+    "E.10",
+    "E.10",
+    "E.12",
+    "E.13",
+    "E.14",
+    "E.15",
+    "E.16",
+    "E.17",
+    "E.17",
+    "E.17",
+    "E.17",
+    "E.18",
+    "E.19",
+    "E.20",
+    "F.0",
+    "F.1",
+    "F.2",
+    "F.3",
+    "F.4",
+    "F.5",
+    "F.6",
+    "F.7",
+    "F.8",
+    "F.9",
+    "F.10",
+    "F.11",
+    "F.12",
+    "F.13",
+    "F.14",
+    "F.15",
+    "F.16",
+    "F.17",
+    "F.18",
+    "G.Core",
+    "G.0",
+    "G.1",
+    "G.2",
+    "G.3",
+    "G.4",
+    "G.5",
+    "G.6",
+    "G.7",
+    "G.8",
+    "G.9",
+    "G.10",
+    "G.11",
+    "G.12",
+    "G.13"
+  ],
+  "top_in": [
+    [
+      "B.3",
+      19
+    ],
+    [
+      "E.10",
+      14
+    ],
+    [
+      "F.1",
+      14
+    ],
+    [
+      "G.5",
+      14
+    ],
+    [
+      "A.15",
+      13
+    ],
+    [
+      "F.9",
+      13
+    ],
+    [
+      "F.3",
+      11
+    ],
+    [
+      "G.4",
+      11
+    ],
+    [
+      "G.6",
+      11
+    ],
+    [
+      "E.18",
+      10
+    ],
+    [
+      "A.10",
+      9
+    ],
+    [
+      "C.18",
+      9
+    ],
+    [
+      "C.19",
+      9
+    ],
+    [
+      "F.7",
+      9
+    ],
+    [
+      "G.10",
+      9
+    ],
+    [
+      "G.11",
+      9
+    ],
+    [
+      "E.8",
+      8
+    ],
+    [
+      "F.15",
+      8
+    ],
+    [
+      "F.5",
+      8
+    ],
+    [
+      "A.1",
+      7
+    ]
+  ],
+  "top_out": [
+    [
+      "E.16",
+      20
+    ],
+    [
+      "G.8",
+      16
+    ],
+    [
+      "A.6",
+      15
+    ],
+    [
+      "F.17",
+      15
+    ],
+    [
+      "G.1",
+      15
+    ],
+    [
+      "G.0",
+      14
+    ],
+    [
+      "G.13",
+      14
+    ],
+    [
+      "G.3",
+      14
+    ],
+    [
+      "G.7",
+      14
+    ],
+    [
+      "C.21",
+      13
+    ],
+    [
+      "G.11",
+      12
+    ],
+    [
+      "G.12",
+      12
+    ],
+    [
+      "A.7",
+      11
+    ],
+    [
+      "E.10",
+      11
+    ],
+    [
+      "G.10",
+      11
+    ],
+    [
+      "G.6",
+      11
+    ],
+    [
+      "A.2",
+      10
+    ],
+    [
+      "C.2",
+      10
+    ],
+    [
+      "F.0",
+      10
+    ],
+    [
+      "F.11",
+      10
+    ]
+  ],
+  "part_edges": [
+    {
+      "src": "C",
+      "dst": "G",
+      "count": 28
+    },
+    {
+      "src": "B",
+      "dst": "A",
+      "count": 27
+    },
+    {
+      "src": "G",
+      "dst": "C",
+      "count": 22
+    },
+    {
+      "src": "A",
+      "dst": "E",
+      "count": 21
+    },
+    {
+      "src": "G",
+      "dst": "E",
+      "count": 19
+    },
+    {
+      "src": "G",
+      "dst": "A",
+      "count": 18
+    },
+    {
+      "src": "G",
+      "dst": "F",
+      "count": 16
+    },
+    {
+      "src": "F",
+      "dst": "A",
+      "count": 14
+    },
+    {
+      "src": "A",
+      "dst": "F",
+      "count": 12
+    },
+    {
+      "src": "E",
+      "dst": "A",
+      "count": 12
+    },
+    {
+      "src": "E",
+      "dst": "F",
+      "count": 10
+    },
+    {
+      "src": "E",
+      "dst": "G",
+      "count": 10
+    },
+    {
+      "src": "A",
+      "dst": "B",
+      "count": 8
+    },
+    {
+      "src": "C",
+      "dst": "E",
+      "count": 7
+    },
+    {
+      "src": "C",
+      "dst": "B",
+      "count": 5
+    },
+    {
+      "src": "F",
+      "dst": "B",
+      "count": 4
+    },
+    {
+      "src": "G",
+      "dst": "B",
+      "count": 4
+    },
+    {
+      "src": "C",
+      "dst": "A",
+      "count": 3
+    },
+    {
+      "src": "E",
+      "dst": "B",
+      "count": 3
+    },
+    {
+      "src": "E",
+      "dst": "C",
+      "count": 3
+    },
+    {
+      "src": "B",
+      "dst": "E",
+      "count": 2
+    },
+    {
+      "src": "C",
+      "dst": "F",
+      "count": 2
+    },
+    {
+      "src": "B",
+      "dst": "C",
+      "count": 1
+    }
+  ],
+  "nontrivial_scc": [
+    [
+      "G.13",
+      "G.8",
+      "G.12",
+      "G.1",
+      "G.3",
+      "G.0",
+      "C.22",
+      "C.23",
+      "C.19",
+      "C.18",
+      "G.7",
+      "G.9",
+      "G.11",
+      "G.6",
+      "G.10",
+      "C.21",
+      "C.2"
+    ],
+    [
+      "F.15",
+      "F.10",
+      "E.10",
+      "A.10",
+      "A.13",
+      "B.2",
+      "B.1",
+      "A.3",
+      "A.7",
+      "E.17",
+      "A.15",
+      "B.3",
+      "A.2"
+    ],
+    [
+      "E.13",
+      "E.12"
+    ]
+  ],
+  "unresolved": [
+    "A.1.1",
+    "A.15.1",
+    "A.15.2",
+    "A.15.3",
+    "A.19.CHR",
+    "A.2.1",
+    "A.2.2",
+    "A.2.3",
+    "A.2.4",
+    "A.2.5",
+    "A.2.6",
+    "A.2.8",
+    "A.2.9",
+    "A.27",
+    "A.3.1",
+    "A.3.2",
+    "A.6.0",
+    "A.6.1",
+    "A.6.2",
+    "A.6.3",
+    "A.6.4",
+    "A.6.5",
+    "A.6.6",
+    "A.6.7",
+    "A.6.8",
+    "A.6.B",
+    "A.6.C",
+    "A.6.P",
+    "B.1.1",
+    "B.1.2",
+    "B.1.3",
+    "B.1.4",
+    "B.1.5",
+    "B.1.6",
+    "B.1.x",
+    "B.2.1",
+    "B.2.2",
+    "B.2.4",
+    "B.3.1",
+    "B.3.3",
+    "B.3.4",
+    "B.3.5",
+    "B.5.2.1",
+    "C.2.1",
+    "C.2.3",
+    "C.3.3",
+    "C.3.A",
+    "C.5",
+    "C.9",
+    "D.4",
+    "E.10.D1",
+    "E.10.D2",
+    "E.10.U9",
+    "E.17.0",
+    "E.17.1",
+    "E.17.2",
+    "E.18:5.12",
+    "E.5.1",
+    "E.5.2",
+    "E.5.3",
+    "E.5.4",
+    "F.0.1",
+    "F.0.1:2.3"
+  ],
+  "unresolved_evidence": {
+    "E.10.D1": [
+      {
+        "from": "A.1",
+        "line": 1208,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 1438,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 1439,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.2",
+        "line": 3705,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 12613,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.15",
+        "line": 16084,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.10",
+        "line": 34564,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      }
+    ],
+    "A.1.1": [
+      {
+        "from": "A.2",
+        "line": 1438,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 2247,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 4604,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.3",
+        "line": 5746,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.3",
+        "line": 6031,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.3",
+        "line": 6278,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.15",
+        "line": 15901,
+        "kind": "builds_on"
+      }
+    ],
+    "E.10.D2": [
+      {
+        "from": "A.2",
+        "line": 1438,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 1439,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.6",
+        "line": 6494,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 6909,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.17",
+        "line": 37331,
+        "kind": "builds_on"
+      }
+    ],
+    "A.2.1": [
+      {
+        "from": "A.2",
+        "line": 2247,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 3705,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 4604,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 4605,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.2",
+        "line": 4676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 4997,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.3",
+        "line": 5746,
+        "kind": "builds_on"
+      }
+    ],
+    "A.2.2": [
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.3",
+        "line": 5746,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.3",
+        "line": 6031,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.3",
+        "line": 6032,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.15",
+        "line": 15901,
+        "kind": "builds_on"
+      }
+    ],
+    "A.2.6": [
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 4676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 4997,
+        "kind": "builds_on"
+      },
+      {
+        "from": "C.2",
+        "line": 26376,
+        "kind": "builds_on"
+      },
+      {
+        "from": "C.21",
+        "line": 31495,
+        "kind": "builds_on"
+      }
+    ],
+    "A.3.1": [
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 2677,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.3",
+        "line": 6031,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.3",
+        "line": 6283,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.15",
+        "line": 15901,
+        "kind": "builds_on"
+      },
+      {
+        "from": "F.11",
+        "line": 42115,
+        "kind": "builds_on"
+      }
+    ],
+    "A.3.2": [
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 2677,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.3",
+        "line": 6283,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.15",
+        "line": 15901,
+        "kind": "builds_on"
+      },
+      {
+        "from": "F.11",
+        "line": 42115,
+        "kind": "builds_on"
+      }
+    ],
+    "A.15.1": [
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 2677,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.2",
+        "line": 4676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 4997,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 7552,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.15",
+        "line": 16084,
+        "kind": "builds_on"
+      },
+      {
+        "from": "F.11",
+        "line": 42115,
+        "kind": "builds_on"
+      }
+    ],
+    "A.15.2": [
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 2677,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.15",
+        "line": 16084,
+        "kind": "builds_on"
+      }
+    ],
+    "A.6.8": [
+      {
+        "from": "A.2",
+        "line": 2676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 2677,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.6",
+        "line": 7552,
+        "kind": "builds_on"
+      }
+    ],
+    "A.2.3": [
+      {
+        "from": "A.2",
+        "line": 3705,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.2",
+        "line": 4676,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 7552,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 12138,
+        "kind": "builds_on"
+      },
+      {
+        "from": "F.12",
+        "line": 42454,
+        "kind": "builds_on"
+      }
+    ],
+    "A.6.B": [
+      {
+        "from": "A.6",
+        "line": 6494,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 7552,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 12138,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 12603,
+        "kind": "coordinates_with"
+      }
+    ],
+    "A.6.0": [
+      {
+        "from": "A.6",
+        "line": 6494,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 6909,
+        "kind": "builds_on"
+      }
+    ],
+    "A.6.1": [
+      {
+        "from": "A.6",
+        "line": 6494,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 6909,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.20",
+        "line": 38436,
+        "kind": "coordinates_with"
+      }
+    ],
+    "A.6.3": [
+      {
+        "from": "A.6",
+        "line": 6494,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 6909,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.17",
+        "line": 37331,
+        "kind": "builds_on"
+      }
+    ],
+    "E.17.0": [
+      {
+        "from": "A.6",
+        "line": 6494,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 6909,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.17",
+        "line": 37331,
+        "kind": "builds_on"
+      }
+    ],
+    "A.2.4": [
+      {
+        "from": "A.6",
+        "line": 7552,
+        "kind": "builds_on"
+      }
+    ],
+    "A.2.8": [
+      {
+        "from": "A.6",
+        "line": 7552,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 12138,
+        "kind": "builds_on"
+      }
+    ],
+    "A.2.9": [
+      {
+        "from": "A.6",
+        "line": 7552,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 12138,
+        "kind": "builds_on"
+      }
+    ],
+    "A.6.P": [
+      {
+        "from": "A.6",
+        "line": 12138,
+        "kind": "builds_on"
+      },
+      {
+        "from": "A.6",
+        "line": 12613,
+        "kind": "builds_on"
+      }
+    ],
+    "A.6.5": [
+      {
+        "from": "A.6",
+        "line": 12138,
+        "kind": "builds_on"
+      }
+    ],
+    "A.6.C": [
+      {
+        "from": "A.6",
+        "line": 12139,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "A.6",
+        "line": 12603,
+        "kind": "coordinates_with"
+      }
+    ],
+    "F.0.1:2.3": [
+      {
+        "from": "A.6",
+        "line": 12613,
+        "kind": "builds_on"
+      }
+    ],
+    "E.10.U9": [
+      {
+        "from": "A.6",
+        "line": 12613,
+        "kind": "builds_on"
+      }
+    ],
+    "C.3.3": [
+      {
+        "from": "A.6",
+        "line": 12614,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "C.2",
+        "line": 26377,
+        "kind": "coordinates_with"
+      }
+    ],
+    "A.6.6": [
+      {
+        "from": "A.6",
+        "line": 12614,
+        "kind": "coordinates_with"
+      }
+    ],
+    "B.1.4": [
+      {
+        "from": "A.6",
+        "line": 13814,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "B.1",
+        "line": 21876,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 21877,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "B.1",
+        "line": 22507,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 22776,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 22777,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "B.2",
+        "line": 23079,
+        "kind": "complements"
+      },
+      {
+        "from": "B.3",
+        "line": 23920,
+        "kind": "builds_on"
+      }
+    ],
+    "A.27": [
+      {
+        "from": "A.7",
+        "line": 14267,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "C.2",
+        "line": 26376,
+        "kind": "builds_on"
+      },
+      {
+        "from": "C.2",
+        "line": 26377,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "G.8",
+        "line": 49312,
+        "kind": "builds_on"
+      },
+      {
+        "from": "G.9",
+        "line": 49714,
+        "kind": "builds_on"
+      }
+    ],
+    "B.1.1": [
+      {
+        "from": "A.10",
+        "line": 14673,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 21876,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 21877,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "B.1",
+        "line": 22164,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 22507,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.3",
+        "line": 23920,
+        "kind": "builds_on"
+      }
+    ],
+    "A.6.7": [
+      {
+        "from": "A.15",
+        "line": 16084,
+        "kind": "builds_on"
+      }
+    ],
+    "B.1.6": [
+      {
+        "from": "B.1",
+        "line": 21876,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 21877,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "B.1",
+        "line": 22507,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 22508,
+        "kind": "coordinates_with"
+      }
+    ],
+    "B.1.5": [
+      {
+        "from": "B.1",
+        "line": 22164,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 22776,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 22777,
+        "kind": "coordinates_with"
+      }
+    ],
+    "B.1.2": [
+      {
+        "from": "B.1",
+        "line": 22776,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.1",
+        "line": 22777,
+        "kind": "coordinates_with"
+      },
+      {
+        "from": "B.2",
+        "line": 23079,
+        "kind": "complements"
+      },
+      {
+        "from": "B.3",
+        "line": 23920,
+        "kind": "builds_on"
+      }
+    ],
+    "B.1.x": [
+      {
+        "from": "B.2",
+        "line": 23077,
+        "kind": "builds_on"
+      }
+    ],
+    "B.1.3": [
+      {
+        "from": "B.2",
+        "line": 23079,
+        "kind": "complements"
+      },
+      {
+        "from": "B.3",
+        "line": 23920,
+        "kind": "builds_on"
+      },
+      {
+        "from": "C.2",
+        "line": 26376,
+        "kind": "builds_on"
+      }
+    ],
+    "B.2.1": [
+      {
+        "from": "B.2",
+        "line": 23327,
+        "kind": "builds_on"
+      }
+    ],
+    "B.2.2": [
+      {
+        "from": "B.2",
+        "line": 23327,
+        "kind": "builds_on"
+      }
+    ],
+    "B.2.4": [
+      {
+        "from": "B.2",
+        "line": 23327,
+        "kind": "builds_on"
+      }
+    ],
+    "B.3.5": [
+      {
+        "from": "B.3",
+        "line": 23920,
+        "kind": "builds_on"
+      },
+      {
+        "from": "B.3",
+        "line": 23921,
+        "kind": "coordinates_with"
+      }
+    ],
+    "B.3.1": [
+      {
+        "from": "B.3",
+        "line": 24009,
+        "kind": "builds_on"
+      }
+    ],
+    "B.3.3": [
+      {
+        "from": "B.3",
+        "line": 24127,
+        "kind": "builds_on"
+      },
+      {
+        "from": "C.2",
+        "line": 26376,
+        "kind": "builds_on"
+      }
+    ],
+    "C.2.3": [
+      {
+        "from": "C.2",
+        "line": 26376,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.10",
+        "line": 34564,
+        "kind": "builds_on"
+      }
+    ],
+    "B.3.4": [
+      {
+        "from": "C.2",
+        "line": 26376,
+        "kind": "builds_on"
+      },
+      {
+        "from": "D.5",
+        "line": 32239,
+        "kind": "complements"
+      },
+      {
+        "from": "G.3",
+        "line": 47234,
+        "kind": "builds_on"
+      },
+      {
+        "from": "G.11",
+        "line": 50441,
+        "kind": "builds_on"
+      }
+    ],
+    "C.3.A": [
+      {
+        "from": "C.2",
+        "line": 26377,
+        "kind": "coordinates_with"
+      }
+    ],
+    "B.5.2.1": [
+      {
+        "from": "C.18",
+        "line": 30919,
+        "kind": "builds_on"
+      }
+    ],
+    "C.5": [
+      {
+        "from": "C.24",
+        "line": 32038,
+        "kind": "builds_on"
+      }
+    ],
+    "D.4": [
+      {
+        "from": "D.5",
+        "line": 32239,
+        "kind": "complements"
+      }
+    ],
+    "E.5.1": [
+      {
+        "from": "E.8",
+        "line": 33513,
+        "kind": "builds_on"
+      },
+      {
+        "from": "G.3",
+        "line": 47234,
+        "kind": "builds_on"
+      }
+    ],
+    "E.5.4": [
+      {
+        "from": "E.8",
+        "line": 33513,
+        "kind": "builds_on"
+      }
+    ],
+    "C.2.1": [
+      {
+        "from": "E.10",
+        "line": 34564,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      }
+    ],
+    "A.2.5": [
+      {
+        "from": "E.16",
+        "line": 35708,
+        "kind": "builds_on"
+      }
+    ],
+    "C.9": [
+      {
+        "from": "E.16",
+        "line": 35708,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.16",
+        "line": 35709,
+        "kind": "coordinates_with"
+      }
+    ],
+    "A.6.2": [
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      },
+      {
+        "from": "E.17",
+        "line": 37331,
+        "kind": "builds_on"
+      }
+    ],
+    "A.6.4": [
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      }
+    ],
+    "E.17.1": [
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      }
+    ],
+    "E.17.2": [
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      }
+    ],
+    "E.18:5.12": [
+      {
+        "from": "E.17",
+        "line": 35910,
+        "kind": "builds_on"
+      }
+    ],
+    "F.0.1": [
+      {
+        "from": "F.9",
+        "line": 41336,
+        "kind": "builds_on"
+      },
+      {
+        "from": "F.9",
+        "line": 41694,
+        "kind": "builds_on"
+      },
+      {
+        "from": "F.15",
+        "line": 43398,
+        "kind": "builds_on"
+      },
+      {
+        "from": "F.18",
+        "line": 45115,
+        "kind": "builds_on"
+      }
+    ],
+    "A.15.3": [
+      {
+        "from": "G.1",
+        "line": 46335,
+        "kind": "builds_on"
+      },
+      {
+        "from": "G.3",
+        "line": 47234,
+        "kind": "builds_on"
+      }
+    ],
+    "A.19.CHR": [
+      {
+        "from": "G.3",
+        "line": 47234,
+        "kind": "builds_on"
+      }
+    ],
+    "E.5.3": [
+      {
+        "from": "G.3",
+        "line": 47234,
+        "kind": "builds_on"
+      }
+    ],
+    "E.5.2": [
+      {
+        "from": "G.8",
+        "line": 49312,
+        "kind": "builds_on"
+      },
+      {
+        "from": "G.9",
+        "line": 49714,
+        "kind": "builds_on"
+      },
+      {
+        "from": "G.12",
+        "line": 50826,
+        "kind": "builds_on"
+      },
+      {
+        "from": "G.13",
+        "line": 51184,
+        "kind": "builds_on"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "src": "A.1",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 1208,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 1417,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 1417,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 1417,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.13",
+      "kind": "depends",
+      "line": 1419,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 1419,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 1438,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 1438,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.13",
+      "kind": "depends",
+      "line": 1438,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 1438,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 1438,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "E.10.D2",
+      "kind": "depends",
+      "line": 1438,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.13",
+      "kind": "depends",
+      "line": 1439,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 1439,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 1439,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "E.10.D2",
+      "kind": "depends",
+      "line": 1439,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 2247,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 2247,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 2247,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.3",
+      "kind": "depends",
+      "line": 2247,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 2247,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.3",
+      "kind": "depends",
+      "line": 2248,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 2248,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.2",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.6",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.3.1",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.3.2",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15.1",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15.2",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.6.8",
+      "kind": "depends",
+      "line": 2676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.3.1",
+      "kind": "depends",
+      "line": 2677,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.3.2",
+      "kind": "depends",
+      "line": 2677,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15.1",
+      "kind": "depends",
+      "line": 2677,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15.2",
+      "kind": "depends",
+      "line": 2677,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.6.8",
+      "kind": "depends",
+      "line": 2677,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 2677,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 3705,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.3",
+      "kind": "depends",
+      "line": 3705,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 3705,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 3705,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 3705,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 4604,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 4604,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 4604,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 4605,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 4605,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.2",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 4676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 4676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.6",
+      "kind": "depends",
+      "line": 4676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 4676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.3",
+      "kind": "depends",
+      "line": 4676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15.1",
+      "kind": "depends",
+      "line": 4676,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 4997,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.2.6",
+      "kind": "depends",
+      "line": 4997,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 4997,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 4997,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.2",
+      "dst": "A.15.1",
+      "kind": "depends",
+      "line": 4997,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 5746,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 5746,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2",
+      "kind": "depends",
+      "line": 5746,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 5746,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2.2",
+      "kind": "depends",
+      "line": 5746,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 5746,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "B.1",
+      "kind": "depends",
+      "line": 5746,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 5747,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.3",
+      "dst": "B.1",
+      "kind": "depends",
+      "line": 5747,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.3.1",
+      "kind": "depends",
+      "line": 6031,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 6031,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2",
+      "kind": "depends",
+      "line": 6031,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 6031,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2.2",
+      "kind": "depends",
+      "line": 6031,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 6031,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2",
+      "kind": "depends",
+      "line": 6032,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 6032,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.2.2",
+      "kind": "depends",
+      "line": 6032,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 6032,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 6278,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.3.1",
+      "kind": "depends",
+      "line": 6283,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.3",
+      "dst": "A.3.2",
+      "kind": "depends",
+      "line": 6283,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.B",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.0",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.1",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.3",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.17.0",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.17",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.18",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10.D2",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 6494,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.0",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.1",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.3",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.17.0",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.17",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.18",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10.D2",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 6909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.B",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.8",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.2.3",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.2.4",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.2.8",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.2.9",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.15.1",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.17",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.12",
+      "kind": "depends",
+      "line": 7552,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.P",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.5",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.B",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.2.3",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.2.8",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.2.9",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.17",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.18",
+      "kind": "depends",
+      "line": 12138,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.C",
+      "kind": "depends",
+      "line": 12139,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 12139,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 12139,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.15",
+      "kind": "depends",
+      "line": 12139,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.C",
+      "kind": "depends",
+      "line": 12603,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.B",
+      "kind": "depends",
+      "line": 12603,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.P",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.0.1:2.3",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10.U9",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.19",
+      "kind": "depends",
+      "line": 12613,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.17",
+      "kind": "depends",
+      "line": 12614,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "C.3.3",
+      "kind": "depends",
+      "line": 12614,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.6.6",
+      "kind": "depends",
+      "line": 12614,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 12614,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 12614,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 13024,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 13024,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "B.1.4",
+      "kind": "depends",
+      "line": 13814,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 13814,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.6",
+      "dst": "F.18",
+      "kind": "depends",
+      "line": 13814,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 14264,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.2",
+      "kind": "depends",
+      "line": 14264,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.3",
+      "kind": "depends",
+      "line": 14264,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 14264,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 14264,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 14264,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 14264,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.13",
+      "kind": "depends",
+      "line": 14264,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.7",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 14267,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.21",
+      "kind": "depends",
+      "line": 14267,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.7",
+      "dst": "A.27",
+      "kind": "depends",
+      "line": 14267,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.7",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 14267,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.10",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 14673,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.10",
+      "dst": "A.4",
+      "kind": "depends",
+      "line": 14673,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.10",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 14673,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.10",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 14673,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.10",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 14673,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.10",
+      "dst": "B.1",
+      "kind": "depends",
+      "line": 14673,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.10",
+      "dst": "B.1.1",
+      "kind": "depends",
+      "line": 14673,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.10",
+      "kind": "depends_via_reverse",
+      "line": 14674,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1.1",
+      "dst": "A.10",
+      "kind": "depends_via_reverse",
+      "line": 14674,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.3",
+      "dst": "A.10",
+      "kind": "depends_via_reverse",
+      "line": 14674,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.4",
+      "dst": "A.10",
+      "kind": "depends_via_reverse",
+      "line": 14674,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "A.13",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 15070,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.13",
+      "dst": "B.2",
+      "kind": "depends",
+      "line": 15074,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 15901,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 15901,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.2",
+      "kind": "depends",
+      "line": 15901,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 15901,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.2.2",
+      "kind": "depends",
+      "line": 15901,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.3.1",
+      "kind": "depends",
+      "line": 15901,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.3.2",
+      "kind": "depends",
+      "line": 15901,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "B.1",
+      "kind": "depends",
+      "line": 15901,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "B.1",
+      "kind": "depends",
+      "line": 15902,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "A.15",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 16084,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.15.2",
+      "kind": "depends",
+      "line": 16084,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.15.1",
+      "kind": "depends",
+      "line": 16084,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 16084,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "A.6.7",
+      "kind": "depends",
+      "line": 16084,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "E.19",
+      "kind": "depends",
+      "line": 16084,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.15",
+      "dst": "E.17",
+      "kind": "depends",
+      "line": 16084,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "A.17",
+      "dst": "A.18",
+      "kind": "depends",
+      "line": 16614,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.1",
+      "kind": "depends",
+      "line": 21427,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 21427,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 21427,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 21427,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1.2",
+      "dst": "B.1",
+      "kind": "depends_via_reverse",
+      "line": 21429,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1.3",
+      "dst": "B.1",
+      "kind": "depends_via_reverse",
+      "line": 21429,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1.4",
+      "dst": "B.1",
+      "kind": "depends_via_reverse",
+      "line": 21429,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1.5",
+      "dst": "B.1",
+      "kind": "depends_via_reverse",
+      "line": 21429,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1.6",
+      "dst": "B.1",
+      "kind": "depends_via_reverse",
+      "line": 21429,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.1",
+      "kind": "depends_via_reverse",
+      "line": 21429,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.3",
+      "kind": "depends",
+      "line": 21577,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 21876,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 21876,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 21876,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.1",
+      "kind": "depends",
+      "line": 21876,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.4",
+      "kind": "depends",
+      "line": 21876,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.6",
+      "kind": "depends",
+      "line": 21876,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.1",
+      "kind": "depends",
+      "line": 21877,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.4",
+      "kind": "depends",
+      "line": 21877,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.6",
+      "kind": "depends",
+      "line": 21877,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.2",
+      "kind": "depends",
+      "line": 21877,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.2",
+      "kind": "depends",
+      "line": 21878,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 21878,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.1",
+      "kind": "depends",
+      "line": 22164,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 22164,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 22164,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 22164,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.5",
+      "kind": "depends",
+      "line": 22164,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 22507,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 22507,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 22507,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.1",
+      "kind": "depends",
+      "line": 22507,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.4",
+      "kind": "depends",
+      "line": 22507,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.6",
+      "kind": "depends",
+      "line": 22507,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 22507,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.6",
+      "kind": "depends",
+      "line": 22508,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 22508,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.2",
+      "kind": "depends",
+      "line": 22508,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.2",
+      "kind": "depends",
+      "line": 22509,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 22776,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 22776,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 22776,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.5",
+      "kind": "depends",
+      "line": 22776,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.4",
+      "kind": "depends",
+      "line": 22776,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.2",
+      "kind": "depends",
+      "line": 22776,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.5",
+      "kind": "depends",
+      "line": 22777,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.4",
+      "kind": "depends",
+      "line": 22777,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.1.2",
+      "kind": "depends",
+      "line": 22777,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.1",
+      "dst": "B.2",
+      "kind": "depends",
+      "line": 22777,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.2",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 23077,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.2",
+      "dst": "A.13",
+      "kind": "depends",
+      "line": 23077,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.2",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 23077,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.2",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 23077,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.1.x",
+      "kind": "depends",
+      "line": 23077,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 23077,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.4",
+      "kind": "depends",
+      "line": 23077,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.4",
+      "dst": "B.2",
+      "kind": "depends_via_reverse",
+      "line": 23078,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1.4",
+      "dst": "B.2",
+      "kind": "depends_via_reverse",
+      "line": 23078,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1.2",
+      "dst": "B.2",
+      "kind": "depends_via_reverse",
+      "line": 23078,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.1.3",
+      "dst": "B.2",
+      "kind": "depends_via_reverse",
+      "line": 23078,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.1.4",
+      "kind": "depends",
+      "line": 23079,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.1.2",
+      "kind": "depends",
+      "line": 23079,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.1.3",
+      "kind": "depends",
+      "line": 23079,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.2.1",
+      "kind": "depends",
+      "line": 23327,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.2.2",
+      "kind": "depends",
+      "line": 23327,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.2.4",
+      "kind": "depends",
+      "line": 23327,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.1",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.1.1",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.1.2",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.1.3",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.1.4",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "A.12",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "A.14",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "C.13",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "E.14",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.3.5",
+      "kind": "depends",
+      "line": 23920,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "E.14",
+      "kind": "depends",
+      "line": 23921,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.3.5",
+      "kind": "depends",
+      "line": 23921,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.4",
+      "kind": "depends",
+      "line": 23921,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "B.4",
+      "dst": "B.3",
+      "kind": "depends_via_reverse",
+      "line": 23922,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.2",
+      "dst": "B.3",
+      "kind": "depends_via_reverse",
+      "line": 23922,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.3.1",
+      "kind": "depends",
+      "line": 24009,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 24009,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "A.4",
+      "kind": "depends",
+      "line": 24009,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "B.3.3",
+      "kind": "depends",
+      "line": 24127,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "B.3",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 24127,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "A.2.6",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.2.3",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "B.1.3",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "B.3.3",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "B.3.4",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.3",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "G.7",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "E.14",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "A.27",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.25",
+      "kind": "depends",
+      "line": 26376,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 26377,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.2",
+      "dst": "E.14",
+      "kind": "depends",
+      "line": 26377,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.2",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 26377,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.2",
+      "dst": "A.27",
+      "kind": "depends",
+      "line": 26377,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.25",
+      "kind": "depends",
+      "line": 26377,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.3.3",
+      "kind": "depends",
+      "line": 26377,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.3.A",
+      "kind": "depends",
+      "line": 26377,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.2",
+      "dst": "C.21",
+      "kind": "depends",
+      "line": 26377,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.3.3",
+      "dst": "C.2",
+      "kind": "depends_via_reverse",
+      "line": 26378,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "C.3.A",
+      "dst": "C.2",
+      "kind": "depends_via_reverse",
+      "line": 26378,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "C.21",
+      "dst": "C.2",
+      "kind": "depends_via_reverse",
+      "line": 26378,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "C.2:4.1",
+      "dst": "C.2",
+      "kind": "depends_via_reverse",
+      "line": 26378,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "B.3",
+      "dst": "C.2",
+      "kind": "depends_via_reverse",
+      "line": 26378,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "C.3",
+      "dst": "C.2",
+      "kind": "depends_via_reverse",
+      "line": 26378,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "C.18",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 30919,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "C.2",
+      "kind": "depends",
+      "line": 30919,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "B.5.2.1",
+      "kind": "depends",
+      "line": 30919,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "C.17",
+      "kind": "depends",
+      "line": 30919,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 30919,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 30919,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 30919,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 30919,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 31006,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 31006,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 31006,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 31006,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.18",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 31006,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.19",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 31116,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.19",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 31116,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.19",
+      "dst": "C.17",
+      "kind": "depends",
+      "line": 31116,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.19",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 31116,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.19",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 31116,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "C.20",
+      "kind": "depends",
+      "line": 31316,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 31316,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.12",
+      "kind": "depends",
+      "line": 31316,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.0",
+      "kind": "depends",
+      "line": 31316,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "A.17",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "A.18",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "A.2.6",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "C.20",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.12",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 31495,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.21",
+      "dst": "C.20",
+      "kind": "depends",
+      "line": 31496,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 31496,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.12",
+      "kind": "depends",
+      "line": 31496,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 31496,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 31496,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 31496,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 31496,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.21",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 31496,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.22",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 31527,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.22",
+      "dst": "C.23",
+      "kind": "depends",
+      "line": 31527,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.22",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 31527,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.22",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 31527,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.22",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 31527,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "C.22",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.22",
+      "dst": "G.0",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.22",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.22",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.22",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.22",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.22",
+      "dst": "C.23",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.22",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.22",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 31693,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.23",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 31910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.23",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 31910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.23",
+      "dst": "C.22",
+      "kind": "depends",
+      "line": 31910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.23",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 31910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.23",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 31910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.23",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 31910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.24",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 32038,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.24",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 32038,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.24",
+      "dst": "C.5",
+      "kind": "depends",
+      "line": 32038,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.24",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 32038,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "C.24",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 32038,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "D.5",
+      "dst": "D.4",
+      "kind": "depends",
+      "line": 32239,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "D.5",
+      "dst": "B.3.4",
+      "kind": "depends",
+      "line": 32239,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "E.8",
+      "dst": "E.6",
+      "kind": "depends",
+      "line": 33513,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.8",
+      "dst": "E.7",
+      "kind": "depends",
+      "line": 33513,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.8",
+      "dst": "E.5.1",
+      "kind": "depends",
+      "line": 33513,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.8",
+      "dst": "E.5.4",
+      "kind": "depends",
+      "line": 33513,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 33621,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "E.5",
+      "kind": "depends",
+      "line": 33621,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 33621,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "A.2",
+      "kind": "depends",
+      "line": 33621,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 33621,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 33621,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "B.1",
+      "kind": "depends",
+      "line": 33621,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 33621,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 34564,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 34564,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "C.2.1",
+      "kind": "depends",
+      "line": 34564,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "C.2.3",
+      "kind": "depends",
+      "line": 34564,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "F.4",
+      "kind": "depends",
+      "line": 34564,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 34564,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "F.10",
+      "kind": "depends",
+      "line": 34564,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.10",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 34564,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.12",
+      "dst": "E.13",
+      "kind": "depends",
+      "line": 35144,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "E.13",
+      "dst": "E.12",
+      "kind": "depends",
+      "line": 35236,
+      "raw_kind": "complements"
+    },
+    {
+      "src": "E.16",
+      "dst": "A.2",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "A.2.1",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "A.2.5",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "A.21",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "F.4",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "F.6",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "F.17",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "A.13",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "C.9",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "C.24",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.8",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 35708,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.16",
+      "dst": "A.13",
+      "kind": "depends",
+      "line": 35709,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "E.16",
+      "dst": "C.9",
+      "kind": "depends",
+      "line": 35709,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "E.16",
+      "dst": "C.24",
+      "kind": "depends",
+      "line": 35709,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 35709,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 35709,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.8",
+      "kind": "depends",
+      "line": 35709,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 35709,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "E.16",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 35709,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "E.17",
+      "dst": "C.2.1",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "A.6.2",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "A.6.3",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "A.6.4",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.10.D2",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.17.1",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.17.2",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.18:5.12",
+      "kind": "depends",
+      "line": 35910,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17.1",
+      "dst": "E.17",
+      "kind": "depends_via_reverse",
+      "line": 35911,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "E.17.2",
+      "dst": "E.17",
+      "kind": "depends_via_reverse",
+      "line": 35911,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "E.18:5.12",
+      "dst": "E.17",
+      "kind": "depends_via_reverse",
+      "line": 35911,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "E.17",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 37331,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.10.D2",
+      "kind": "depends",
+      "line": 37331,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "A.6.2",
+      "kind": "depends",
+      "line": 37331,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "A.6.3",
+      "kind": "depends",
+      "line": 37331,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.17.0",
+      "kind": "depends",
+      "line": 37331,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 37331,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.17",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 37331,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.20",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 38430,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "E.20",
+      "dst": "A.6.1",
+      "kind": "depends",
+      "line": 38436,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "F.0",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "A.8",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "A.11",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "A.4",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "F.2",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.0",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 38459,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.2",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 39387,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.8",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 41289,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.8",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 41289,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.8",
+      "dst": "F.2",
+      "kind": "depends",
+      "line": 41289,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.8",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 41289,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 41336,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.0.1",
+      "kind": "depends",
+      "line": 41336,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 41336,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.2",
+      "kind": "depends",
+      "line": 41336,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 41336,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 41336,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 41336,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 41694,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.0.1",
+      "kind": "depends",
+      "line": 41694,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 41694,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.2",
+      "kind": "depends",
+      "line": 41694,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 41694,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 41694,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.9",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 41694,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.10",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 41742,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.10",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 41742,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.10",
+      "dst": "F.2",
+      "kind": "depends",
+      "line": 41742,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.10",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 41742,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.10",
+      "dst": "F.4",
+      "kind": "depends",
+      "line": 41742,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.10",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 41742,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.10",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 41742,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "A.3",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "A.3.1",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "A.3.2",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "A.15.1",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "F.4",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "F.6",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.11",
+      "dst": "F.10",
+      "kind": "depends",
+      "line": 42115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.2",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.10",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.11",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "A.2.3",
+      "kind": "depends",
+      "line": 42454,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.12",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 42731,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.13",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 42791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.13",
+      "dst": "F.2",
+      "kind": "depends",
+      "line": 42791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.13",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 42791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.13",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 42791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.13",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 42791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.13",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 42791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.13",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 42791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.13",
+      "dst": "F.10",
+      "kind": "depends",
+      "line": 42791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.14",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 43342,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.14",
+      "dst": "F.2",
+      "kind": "depends",
+      "line": 43342,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.14",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 43342,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.14",
+      "dst": "F.4",
+      "kind": "depends",
+      "line": 43342,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.14",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 43342,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.15",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 43398,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.15",
+      "dst": "F.0.1",
+      "kind": "depends",
+      "line": 43398,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.15",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 43398,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.15",
+      "dst": "F.14",
+      "kind": "depends",
+      "line": 43398,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.15",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 43398,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.15",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 43619,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.15",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 43619,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.15",
+      "dst": "F.14",
+      "kind": "depends",
+      "line": 43619,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.16",
+      "dst": "E.10.D1",
+      "kind": "depends",
+      "line": 43791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.16",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 43791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.16",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 43791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.16",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 43791,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.4",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.10",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.12",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.8",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.11",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 44096,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.1.1",
+      "kind": "depends",
+      "line": 44097,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.7",
+      "kind": "depends",
+      "line": 44097,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.8",
+      "kind": "depends",
+      "line": 44097,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.11",
+      "kind": "depends",
+      "line": 44097,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "F.17",
+      "dst": "A.15",
+      "kind": "depends",
+      "line": 44097,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 44358,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 44358,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 44358,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 44358,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 44358,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.17",
+      "dst": "F.16",
+      "kind": "depends",
+      "line": 44358,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.0.1",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.5",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.13",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.14",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "F.18",
+      "dst": "F.17",
+      "kind": "depends",
+      "line": 45115,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.Core",
+      "dst": "G.0",
+      "kind": "depends",
+      "line": 45563,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.Core",
+      "dst": "G.13",
+      "kind": "depends",
+      "line": 45563,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "A.19",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "A.17",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "A.18",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "E.5",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "G.1",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "G.3",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.0",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 45909,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "G.0",
+      "kind": "depends_via_reverse",
+      "line": 45910,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.2",
+      "dst": "G.0",
+      "kind": "depends_via_reverse",
+      "line": 45910,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.3",
+      "dst": "G.0",
+      "kind": "depends_via_reverse",
+      "line": 45910,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.4",
+      "dst": "G.0",
+      "kind": "depends_via_reverse",
+      "line": 45910,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.5",
+      "dst": "G.0",
+      "kind": "depends_via_reverse",
+      "line": 45910,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.6",
+      "dst": "G.0",
+      "kind": "depends_via_reverse",
+      "line": 45910,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.1",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "E.19",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "A.15.3",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "A.19",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "G.0",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "G.3",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "C.17",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.1",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 46335,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "G.1",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "A.19.CHR",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "A.15.3",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "A.17",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "A.18",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "C.16",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "F.1",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "B.3.4",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "E.5.1",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "E.5.3",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "G.0",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.3",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 47234,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.4",
+      "dst": "E.8",
+      "kind": "depends",
+      "line": 47699,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.5",
+      "dst": "G.4",
+      "kind": "depends_via_reverse",
+      "line": 47705,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.8",
+      "dst": "G.4",
+      "kind": "depends_via_reverse",
+      "line": 47705,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.9",
+      "dst": "G.4",
+      "kind": "depends_via_reverse",
+      "line": 47705,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.4",
+      "kind": "depends_via_reverse",
+      "line": 47705,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.4",
+      "kind": "depends_via_reverse",
+      "line": 47705,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.6",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "A.21",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "E.5",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "F.17",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.6",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 48471,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.5",
+      "dst": "G.6",
+      "kind": "depends_via_reverse",
+      "line": 48473,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.8",
+      "dst": "G.6",
+      "kind": "depends_via_reverse",
+      "line": 48473,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.9",
+      "dst": "G.6",
+      "kind": "depends_via_reverse",
+      "line": 48473,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.6",
+      "kind": "depends_via_reverse",
+      "line": 48473,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.6",
+      "kind": "depends_via_reverse",
+      "line": 48473,
+      "raw_kind": "used_by"
+    },
+    {
+      "src": "G.7",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "F.3",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "F.7",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "B.3",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "A.21",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "C.21",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "C.23",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.7",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 48857,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.5",
+      "dst": "G.7",
+      "kind": "depends_via_reverse",
+      "line": 48859,
+      "raw_kind": "prerequisite_for"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.7",
+      "kind": "depends_via_reverse",
+      "line": 48859,
+      "raw_kind": "prerequisite_for"
+    },
+    {
+      "src": "G.9",
+      "dst": "G.7",
+      "kind": "depends_via_reverse",
+      "line": 48859,
+      "raw_kind": "prerequisite_for"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.7",
+      "kind": "depends_via_reverse",
+      "line": 48859,
+      "raw_kind": "prerequisite_for"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.7",
+      "kind": "depends_via_reverse",
+      "line": 48859,
+      "raw_kind": "prerequisite_for"
+    },
+    {
+      "src": "G.8",
+      "dst": "C.23",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "C.22",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "A.10",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "F.8",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "F.9",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "G.7",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "E.5.2",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "A.21",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "A.27",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.8",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 49312,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "A.21",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "A.27",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "E.5.2",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.9",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 49714,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.3",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.7",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.8",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.12",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.13",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.10",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 50082,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.7",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.8",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "B.3.4",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.12",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "C.23",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 50441,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.11",
+      "dst": "G.12",
+      "kind": "depends",
+      "line": 50442,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.11",
+      "dst": "C.18",
+      "kind": "depends",
+      "line": 50442,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.11",
+      "dst": "C.19",
+      "kind": "depends",
+      "line": 50442,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.11",
+      "dst": "C.23",
+      "kind": "depends",
+      "line": 50442,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.11",
+      "dst": "F.15",
+      "kind": "depends",
+      "line": 50442,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.12",
+      "dst": "C.21",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "A.19",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.0",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "F.17",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "F.18",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "E.5.2",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "E.10",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.7",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.8",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 50826,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 50827,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.7",
+      "kind": "depends",
+      "line": 50827,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.8",
+      "kind": "depends",
+      "line": 50827,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.12",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 50827,
+      "raw_kind": "coordinates_with"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.2",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.3",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.4",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.5",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.6",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.7",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.9",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.10",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.11",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "A.19",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "A.18",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "G.0",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "F.17",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "E.5.2",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    },
+    {
+      "src": "G.13",
+      "dst": "E.18",
+      "kind": "depends",
+      "line": 51184,
+      "raw_kind": "builds_on"
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+  "summary": {
+    "sections": 170,
+    "depends_edges": 518,
+    "unresolved_ids": 63,
+    "largest_scc": 17,
+    "second_scc": 13
+  },
+  "top_in": [
+    [
+      "B.3",
+      19
+    ],
+    [
+      "E.10",
+      14
+    ],
+    [
+      "F.1",
+      14
+    ],
+    [
+      "G.5",
+      14
+    ],
+    [
+      "A.15",
+      13
+    ],
+    [
+      "F.9",
+      13
+    ],
+    [
+      "F.3",
+      11
+    ],
+    [
+      "G.4",
+      11
+    ],
+    [
+      "G.6",
+      11
+    ],
+    [
+      "E.18",
+      10
+    ],
+    [
+      "A.10",
+      9
+    ],
+    [
+      "C.18",
+      9
+    ]
+  ],
+  "top_out": [
+    [
+      "E.16",
+      20
+    ],
+    [
+      "G.8",
+      16
+    ],
+    [
+      "A.6",
+      15
+    ],
+    [
+      "F.17",
+      15
+    ],
+    [
+      "G.1",
+      15
+    ],
+    [
+      "G.0",
+      14
+    ],
+    [
+      "G.13",
+      14
+    ],
+    [
+      "G.3",
+      14
+    ],
+    [
+      "G.7",
+      14
+    ],
+    [
+      "C.21",
+      13
+    ],
+    [
+      "G.11",
+      12
+    ],
+    [
+      "G.12",
+      12
+    ]
+  ],
+  "core_nodes": [
+    "A.15",
+    "B.3",
+    "E.10",
+    "A.7",
+    "B.1",
+    "A.2",
+    "F.9",
+    "F.1",
+    "F.17",
+    "G.11",
+    "A.6",
+    "C.18",
+    "G.5",
+    "G.10",
+    "G.6",
+    "C.19",
+    "G.0",
+    "G.12",
+    "G.7",
+    "G.8"
+  ],
+  "core_edges_count": 84,
+  "unresolved_top": [
+    {
+      "id": "E.10.D1",
+      "refs": 17,
+      "evidence": [
+        {
+          "from": "A.1",
+          "line": 1208,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 1438,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 1439,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "A.2",
+          "line": 3705,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 12613,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.2.1",
+      "refs": 12,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 2247,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 2676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 3705,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 4604,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 4605,
+          "kind": "coordinates_with"
+        }
+      ]
+    },
+    {
+      "id": "A.1.1",
+      "refs": 11,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 1438,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 2247,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 2676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 4604,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.3",
+          "line": 5746,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "B.1.4",
+      "refs": 8,
+      "evidence": [
+        {
+          "from": "A.6",
+          "line": 13814,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "B.1",
+          "line": 21876,
+          "kind": "builds_on"
+        },
+        {
+          "from": "B.1",
+          "line": 21877,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "B.1",
+          "line": 22507,
+          "kind": "builds_on"
+        },
+        {
+          "from": "B.1",
+          "line": 22776,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.15.1",
+      "refs": 7,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 2676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 2677,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "A.2",
+          "line": 4676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 4997,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 7552,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.3.1",
+      "refs": 6,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 2676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 2677,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "A.3",
+          "line": 6031,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.3",
+          "line": 6283,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "A.15",
+          "line": 15901,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "B.1.1",
+      "refs": 6,
+      "evidence": [
+        {
+          "from": "A.10",
+          "line": 14673,
+          "kind": "builds_on"
+        },
+        {
+          "from": "B.1",
+          "line": 21876,
+          "kind": "builds_on"
+        },
+        {
+          "from": "B.1",
+          "line": 21877,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "B.1",
+          "line": 22164,
+          "kind": "builds_on"
+        },
+        {
+          "from": "B.1",
+          "line": 22507,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "E.10.D2",
+      "refs": 6,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 1438,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 1439,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "A.6",
+          "line": 6494,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 6909,
+          "kind": "builds_on"
+        },
+        {
+          "from": "E.17",
+          "line": 35910,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.2.2",
+      "refs": 5,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 2676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.3",
+          "line": 5746,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.3",
+          "line": 6031,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.3",
+          "line": 6032,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "A.15",
+          "line": 15901,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.2.3",
+      "refs": 5,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 3705,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 4676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 7552,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 12138,
+          "kind": "builds_on"
+        },
+        {
+          "from": "F.12",
+          "line": 42454,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.2.6",
+      "refs": 5,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 2676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 4676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 4997,
+          "kind": "builds_on"
+        },
+        {
+          "from": "C.2",
+          "line": 26376,
+          "kind": "builds_on"
+        },
+        {
+          "from": "C.21",
+          "line": 31495,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.27",
+      "refs": 5,
+      "evidence": [
+        {
+          "from": "A.7",
+          "line": 14267,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "C.2",
+          "line": 26376,
+          "kind": "builds_on"
+        },
+        {
+          "from": "C.2",
+          "line": 26377,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "G.8",
+          "line": 49312,
+          "kind": "builds_on"
+        },
+        {
+          "from": "G.9",
+          "line": 49714,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.3.2",
+      "refs": 5,
+      "evidence": [
+        {
+          "from": "A.2",
+          "line": 2676,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.2",
+          "line": 2677,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "A.3",
+          "line": 6283,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "A.15",
+          "line": 15901,
+          "kind": "builds_on"
+        },
+        {
+          "from": "F.11",
+          "line": 42115,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.6.3",
+      "refs": 4,
+      "evidence": [
+        {
+          "from": "A.6",
+          "line": 6494,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 6909,
+          "kind": "builds_on"
+        },
+        {
+          "from": "E.17",
+          "line": 35910,
+          "kind": "builds_on"
+        },
+        {
+          "from": "E.17",
+          "line": 37331,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "A.6.B",
+      "refs": 4,
+      "evidence": [
+        {
+          "from": "A.6",
+          "line": 6494,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 7552,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 12138,
+          "kind": "builds_on"
+        },
+        {
+          "from": "A.6",
+          "line": 12603,
+          "kind": "coordinates_with"
+        }
+      ]
+    },
+    {
+      "id": "B.1.2",
+      "refs": 4,
+      "evidence": [
+        {
+          "from": "B.1",
+          "line": 22776,
+          "kind": "builds_on"
+        },
+        {
+          "from": "B.1",
+          "line": 22777,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "B.2",
+          "line": 23079,
+          "kind": "complements"
+        },
+        {
+          "from": "B.3",
+          "line": 23920,
+          "kind": "builds_on"
+        }
+      ]
+    },
+    {
+      "id": "B.1.6",
+      "refs": 4,
+      "evidence": [
+        {
+          "from": "B.1",
+          "line": 21876,
+          "kind": "builds_on"
+        },
+        {
+          "from": "B.1",
+          "line": 21877,
+          "kind": "coordinates_with"
+        },
+        {
+          "from": "B.1",
+          "line": 22507,
+          "kind": "builds_on"
+        },
+        {
+          "from": "B.1",
+          "line": 22508,
+          "kind": "coordinates_with"
+        }
+      ]
+    },
+    {
+      "id": "B.3.4",
+      "refs": 4,
+      "evidence": [
+        {
+          "from": "C.2",
+          "line": 26376,
+          "kind": "builds_on"
+        },
+        {
+          "from": "D.5",
+          "line": 32239,
+          "kind": "complements"
+        },
+        {
+          "from": "G.3",
+          "line": 47234,
+          "kind": "builds_on"
+        },
+        {
+          "from": "G.11",
+          "line": 50441,
+          "kind": "builds_on"
+        }
+      ]
+    }
+  ],
+  "part_edges": [
+    {
+      "src": "C",
+      "dst": "G",
+      "count": 28
+    },
+    {
+      "src": "B",
+      "dst": "A",
+      "count": 27
+    },
+    {
+      "src": "G",
+      "dst": "C",
+      "count": 22
+    },
+    {
+      "src": "A",
+      "dst": "E",
+      "count": 21
+    },
+    {
+      "src": "G",
+      "dst": "E",
+      "count": 19
+    },
+    {
+      "src": "G",
+      "dst": "A",
+      "count": 18
+    },
+    {
+      "src": "G",
+      "dst": "F",
+      "count": 16
+    },
+    {
+      "src": "F",
+      "dst": "A",
+      "count": 14
+    },
+    {
+      "src": "A",
+      "dst": "F",
+      "count": 12
+    },
+    {
+      "src": "E",
+      "dst": "A",
+      "count": 12
+    },
+    {
+      "src": "E",
+      "dst": "F",
+      "count": 10
+    },
+    {
+      "src": "E",
+      "dst": "G",
+      "count": 10
+    },
+    {
+      "src": "A",
+      "dst": "B",
+      "count": 8
+    },
+    {
+      "src": "C",
+      "dst": "E",
+      "count": 7
+    },
+    {
+      "src": "C",
+      "dst": "B",
+      "count": 5
+    },
+    {
+      "src": "F",
+      "dst": "B",
+      "count": 4
+    },
+    {
+      "src": "G",
+      "dst": "B",
+      "count": 4
+    },
+    {
+      "src": "C",
+      "dst": "A",
+      "count": 3
+    },
+    {
+      "src": "E",
+      "dst": "B",
+      "count": 3
+    },
+    {
+      "src": "E",
+      "dst": "C",
+      "count": 3
+    },
+    {
+      "src": "B",
+      "dst": "E",
+      "count": 2
+    },
+    {
+      "src": "C",
+      "dst": "F",
+      "count": 2
+    }
+  ],
+  "scc_top": [
+    {
+      "size": 17,
+      "nodes": [
+        "G.13",
+        "G.8",
+        "G.12",
+        "G.1",
+        "G.3",
+        "G.0",
+        "C.22",
+        "C.23",
+        "C.19",
+        "C.18",
+        "G.7",
+        "G.9",
+        "G.11",
+        "G.6",
+        "G.10",
+        "C.21",
+        "C.2"
+      ]
+    },
+    {
+      "size": 13,
+      "nodes": [
+        "F.15",
+        "F.10",
+        "E.10",
+        "A.10",
+        "A.13",
+        "B.2",
+        "B.1",
+        "A.3",
+        "A.7",
+        "E.17",
+        "A.15",
+        "B.3",
+        "A.2"
+      ]
+    },
+    {
+      "size": 2,
+      "nodes": [
+        "E.13",
+        "E.12"
+      ]
+    }
+  ],
+  "plan_phases": [
+    {
+      "phase": "P1 Graph Integrity Baseline",
+      "scope": "Parser stability + section-boundary + table schema + duplicate IDs",
+      "deliverables": "Lint suite in scripts/ (IDs, markdown-table rows, end markers, duplicate anchors), CI gate as non-blocking then blocking",
+      "why": "Prevents new graph corruption and keeps PR stack mergeable by non-specialists"
+    },
+    {
+      "phase": "P2 Canonical ID Governance",
+      "scope": "Normalize ID grammar and status enum vocabulary",
+      "deliverables": "Canonical regex + alias registry + status enum checker + autofix hints",
+      "why": "Machine joins and cross-part references become deterministic"
+    },
+    {
+      "phase": "P3 Missing Nodes Strategy",
+      "scope": "Resolve unresolved references (63 currently): roadmap vs normative",
+      "deliverables": "For normative refs add stub ## sections or remap to real owner IDs; for roadmap refs tag Planned and exclude from conformance graph",
+      "why": "Conformance computation becomes complete and auditable"
+    },
+    {
+      "phase": "P4 Core Cycle Reduction",
+      "scope": "Refactor largest SCCs (sizes 17 and 13)",
+      "deliverables": "Dependency inversion notes, extracted interfaces, explicit owner boundaries between A/E/F/G",
+      "why": "Reduces cascading breakage and simplifies independent evolution"
+    },
+    {
+      "phase": "P5 Continuous Dependency Observability",
+      "scope": "Publish dependency snapshots and drift reports on each release",
+      "deliverables": "`review/dependency-graph-<date>.md` + HTML artifact + trend deltas",
+      "why": "Early detection of unresolved IDs and sudden cross-part coupling spikes"
+    }
+  ],
+  "mermaid": {
+    "part_graph": "graph LR\n  A[\"Part A\"]\n  B[\"Part B\"]\n  C[\"Part C\"]\n  E[\"Part E\"]\n  F[\"Part F\"]\n  G[\"Part G\"]\n  C -- \"28\" --> G\n  B -- \"27\" --> A\n  G -- \"22\" --> C\n  A -- \"21\" --> E\n  G -- \"19\" --> E\n  G -- \"18\" --> A\n  G -- \"16\" --> F\n  F -- \"14\" --> A\n  A -- \"12\" --> F\n  E -- \"12\" --> A\n  E -- \"10\" --> F\n  E -- \"10\" --> G\n  A -- \"8\" --> B\n  C -- \"7\" --> E\n  C -- \"5\" --> B\n  F -- \"4\" --> B\n  G -- \"4\" --> B\n  C -- \"3\" --> A\n  E -- \"3\" --> B\n  E -- \"3\" --> C\n  B -- \"2\" --> E\n  C -- \"2\" --> F",
+    "core_graph": "graph LR\n  N_A_15[\"A.15\"]\n  N_B_3[\"B.3\"]\n  N_E_10[\"E.10\"]\n  N_A_7[\"A.7\"]\n  N_B_1[\"B.1\"]\n  N_A_2[\"A.2\"]\n  N_F_9[\"F.9\"]\n  N_F_1[\"F.1\"]\n  N_F_17[\"F.17\"]\n  N_G_11[\"G.11\"]\n  N_A_6[\"A.6\"]\n  N_C_18[\"C.18\"]\n  N_G_5[\"G.5\"]\n  N_G_10[\"G.10\"]\n  N_G_6[\"G.6\"]\n  N_C_19[\"C.19\"]\n  N_G_0[\"G.0\"]\n  N_G_12[\"G.12\"]\n  N_G_7[\"G.7\"]\n  N_G_8[\"G.8\"]\n  N_A_15 --> N_A_2\n  N_A_15 --> N_B_1\n  N_A_2 --> N_A_15\n  N_A_2 --> N_A_7\n  N_A_2 --> N_B_3\n  N_A_2 --> N_E_10\n  N_A_6 --> N_A_15\n  N_A_6 --> N_A_7\n  N_A_6 --> N_B_3\n  N_A_6 --> N_E_10\n  N_A_6 --> N_F_17\n  N_A_6 --> N_F_9\n  N_A_7 --> N_A_15\n  N_A_7 --> N_A_2\n  N_A_7 --> N_E_10\n  N_B_1 --> N_A_15\n  N_B_1 --> N_B_3\n  N_B_3 --> N_A_15\n  N_B_3 --> N_B_1\n  N_C_18 --> N_C_19\n  N_C_18 --> N_G_10\n  N_C_18 --> N_G_11\n  N_C_18 --> N_G_5\n  N_C_18 --> N_G_6\n  N_C_19 --> N_B_3\n  N_C_19 --> N_C_18\n  N_C_19 --> N_G_5\n  N_E_10 --> N_A_15\n  N_E_10 --> N_A_2\n  N_E_10 --> N_A_7\n  N_E_10 --> N_B_1\n  N_E_10 --> N_B_3\n  N_F_17 --> N_A_15\n  N_F_17 --> N_A_7\n  N_F_17 --> N_F_1\n  N_F_17 --> N_F_9\n  N_F_9 --> N_F_1\n  N_G_0 --> N_B_3\n  N_G_0 --> N_E_10\n  N_G_0 --> N_G_5\n  N_G_0 --> N_G_6\n  N_G_10 --> N_G_11\n  N_G_10 --> N_G_12\n  N_G_10 --> N_G_5\n  N_G_10 --> N_G_6\n  N_G_10 --> N_G_7\n  N_G_10 --> N_G_8\n  N_G_11 --> N_C_18\n  N_G_11 --> N_C_19\n  N_G_11 --> N_G_10\n  N_G_11 --> N_G_12\n  N_G_11 --> N_G_5\n  N_G_11 --> N_G_6\n  N_G_11 --> N_G_7\n  N_G_11 --> N_G_8\n  N_G_12 --> N_E_10\n  N_G_12 --> N_F_17\n  N_G_12 --> N_G_0\n  N_G_12 --> N_G_10\n  N_G_12 --> N_G_11\n  N_G_12 --> N_G_5\n  N_G_12 --> N_G_6\n  N_G_12 --> N_G_7\n  N_G_12 --> N_G_8\n  N_G_6 --> N_B_3\n  N_G_6 --> N_E_10\n  N_G_6 --> N_F_17\n  N_G_6 --> N_F_9\n  N_G_6 --> N_G_11\n  N_G_7 --> N_B_3\n  N_G_7 --> N_C_18\n  N_G_7 --> N_C_19\n  N_G_7 --> N_E_10\n  N_G_7 --> N_F_9\n  N_G_7 --> N_G_6\n  N_G_8 --> N_C_18\n  N_G_8 --> N_C_19\n  N_G_8 --> N_E_10\n  N_G_8 --> N_F_9\n  N_G_8 --> N_G_10\n  N_G_8 --> N_G_11\n  N_G_8 --> N_G_5\n  N_G_8 --> N_G_6\n  N_G_8 --> N_G_7"
+  }
+}
