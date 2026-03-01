@@ -24490,7 +24490,7 @@ The loop creates a closed, auditable circuit between the two temporal scopes. Cr
 
 The Canonical Evolution Loop is universal. It applies identically to the evolution of physical systems, bodies of knowledge, and operational methods. The following sub-patterns detail its instantiation in each of these domains.
 
-*   **B.4-1 System Instantiation (Field Upgrade Loop):**
+*   **B.4.1 System Instantiation (Field Upgrade Loop):**
     *   **Context:** A fleet of autonomous delivery drones (`U.System`) is in operation.
     *   **Loop Example:**
         1.  **Operate:** The drones perform deliveries.
@@ -24498,7 +24498,7 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
         3.  **Refine:** The engineering team (`Transformer`) updates the drone's power management software (`design-time` model) with a new algorithm optimized for cold temperatures.
         4.  **Deploy:** The team (`Transformer`) pushes the new firmware to the entire fleet. The cycle begins again.
 
-*   **B.4-2 Knowledge Instantiation (Theory Refinement Loop):**
+*   **B.4.2 Knowledge Instantiation (Theory Refinement Loop):**
     *   **Context:** A scientific theory of protein folding (`U.Episteme`) is being used to predict structures.
     *   **Loop Example:**
         1.  **Operate:** The theory exists and is applied by researchers.
@@ -24506,7 +24506,7 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
         3.  **Refine:** Another research team (`Transformer`) revises the original theory, adding a new term to its equations (`design-time` model) that accounts for the new protein class.
         4.  **Deploy:** The team (`Transformer`) publishes the revised theory in a journal. The scientific community begins to use the new version. **Note.** The *chart* and any CG‑frame readings derived from this episteme MUST cite the updated `MethodDescription` (per A.19.CN CC‑A19.D1‑3) to keep comparability auditable.
 
-*   **B.4-3 Method Instantiation (Adaptive Workflow Loop):**
+*   **B.4.3 Method Instantiation (Adaptive Workflow Loop):**
     *   **Context:** A software development team uses a specific agile workflow (`U.Method`).
     *   **Loop Example:**
         1.  **Operate:** The team follows the defined workflow for its sprints.
@@ -41155,7 +41155,7 @@ FPF treats **policy-ids** (e.g., `Φ(CL)`, `Φ_plane`, `Ψ(CL^k)`, `Aut-Guard`, 
    * `PolicySpecRef` is edition-pinned, and
    * `MintDecisionRef` is resolvable from the publication’s DRR/DecisionLog links.
 2. **Reuse is reference-only.** If a publication **reuses** an existing policy-id, it **MUST** surface a `PolicySpecRef` (and **SHOULD** preserve the prior mint decision link where available). It **MUST NOT** restate policy semantics *as if* minting a new policy-id.
-3. **GateCrossing checkability.** Any GateCrossing/CrossingSurface that surfaces policy-ids **MUST** include `PolicyIdRef` (or an equivalent “policy-id + resolvable refs” structure) so GateChecks can verify resolvability and pin consistency (E.18/A.21/G.6:H8).
+3. **GateCrossing checkability.** Any GateCrossing/CrossingSurface that surfaces policy-ids **MUST** include `PolicyIdRef` (or an equivalent “policy-id + resolvable refs” structure) so GateChecks can verify resolvability and pin consistency (E.18/A.21/G.6:7.5.8).
 4. **Authority is policy, not tiers.** “Who may mint” vs “who may reuse” is expressed by the referenced **policy specs** and **mint decisions** (and enforced by the active GateProfile/GateChecks), not by fixed tier labels.
 
 
@@ -49620,7 +49620,7 @@ Intended docking point for post‑2015 robust evaluation idioms (e.g., set‑val
 | Interface                          | Consumes                                                                                                                                         | Produces                                                                                        |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
 | **G.9‑1 `Plan_Parity`**            | `BaselineSet`, `BaselineBindingRef`, `FreshnessWindows`, `Budgeting?`, `EpsilonDominance?`, `CNSpecRef.edition`, `CGSpecRef.edition`, `ComparatorSpecRef.edition`, `SCPRef.edition?`, `MinimalEvidenceRef.edition?`, `UNM_id?`, `NormalizationMethodId[]?`, `NormalizationMethodInstanceId[]?`, `ParityPinSet`, `PlanItemRefs[]?` | `ParityPlan@Context` (UTS entry; edition‑pinned)                                                |
-| **G.9‑2 `Run_Parity`**             | `ParityPlan@Context`, `TaskSignatureRef` (S2), **G.5.Select**                                                                                    | Selector outputs (portfolio/archives/sets as refs), DRR+SCR pins with `PathId[]`/`PathSliceId?` |
+| **G.9‑2 `Run_Parity`**             | `ParityPlan@Context`, `TaskSignatureRef` (S2), **G.5‑3 Select**                                                                                  | Selector outputs (portfolio/archives/sets as refs), DRR+SCR pins with `PathId[]`/`PathSliceId?` |
 | **G.9‑3 `Publish_ParityReport`**   | Run artefacts + trace + active pins                                                                                                              | `ParityReport@Context` (UTS entry; audit‑addressable; emits canonical RSCR ids)                 |
 | **G.9‑4 `Expose_ParityTelemetry`** | Telemetry deltas (archive changes, coverage/regret signals, etc.)                                                                                | Telemetry events carrying `PathSliceId?`, policy‑ids, and edition pins for refresh wiring       |
 
